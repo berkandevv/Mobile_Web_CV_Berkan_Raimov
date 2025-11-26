@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV · Portafolio</title>
+    <meta name="description"
+        content="Portafolio de proyectos de Berkan Raimov: examen interactivo en JavaScript, aplicación To-Do con Laravel y otros ejercicios.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body class="bg-light">
+
+    <div class="container-sm px-0 min-vh-100 d-flex flex-column">
+
+        <!-- HEADER -->
+        <header class="bg-dark text-white py-3 px-3 position-relative">
+            <a href="index.html"
+                class="btn btn-link text-decoration-none position-absolute start-0 top-50 translate-middle-y ms-2 text-white"
+                aria-label="Volver al inicio">
+                <i class="bi bi-arrow-left fs-4" aria-hidden="true"></i>
+            </a>
+            <div class="text-center">
+                <h1 class="h5 mb-0">Portafolio</h1>
+                <p class="mb-0 small text-white-50">Algunos proyectos que he realizado</p>
+            </div>
+        </header>
+
+        <!-- MAIN -->
+        <main class="flex-grow-1 d-flex flex-column px-3 pb-5 pt-3">
+
+            <h2 class="visually-hidden">Proyectos de desarrollo web de Berkan Raimov</h2>
+
+            <!-- PROYECTO 1 -->
+            <section class="mb-3" aria-label="Proyecto examen interactivo">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-img-top overflow-hidden">
+                        <img src="img/examen.png" alt="Captura de la interfaz del examen interactivo en JavaScript"
+                            loading="lazy" class="w-100" style="height: 200px; object-fit: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="h6 card-title">Examen interactivo en JavaScript</h3>
+                        <p class="card-text small">
+                            Aplicación tipo examen con preguntas de opción múltiple, feedback inmediato y control de
+                            puntuación.
+                        </p>
+                        <ul class="small mb-2">
+                            <li>Gestión de estado de las preguntas con JavaScript.</li>
+                            <li>Estilos responsive con HTML y CSS.</li>
+                            <li>Validación de respuestas y cálculo de resultado final.</li>
+                        </ul>
+
+                        <div class="d-flex align-items-center flex-wrap gap-2 small">
+                            <strong class="me-1">Tecnologías:</strong>
+                            <i class="devicon-html5-plain colored fs-4"></i>
+                            <i class="devicon-css3-plain colored fs-4"></i>
+                            <i class="devicon-javascript-plain colored fs-4"></i>
+                            <i class="devicon-git-plain colored fs-4"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROYECTO 2 -->
+            <section class="mb-3" aria-label="Proyecto To-Do con Laravel">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-img-top overflow-hidden">
+                        <img src="img/laravel.jpeg" alt="Captura de la aplicación de tareas desarrollada con Laravel"
+                            loading="lazy" class="w-100" style="height: 200px; object-fit: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="h6 card-title">Aplicación To-Do con Laravel</h3>
+                        <p class="card-text small">
+                            Lista de tareas con creación, edición, marcado como completado y eliminación de tareas.
+                        </p>
+                        <ul class="small mb-2">
+                            <li>Rutas y controladores en Laravel.</li>
+                            <li>Persistencia en base de datos MySQL.</li>
+                            <li>Vistas Blade con maquetación limpia y minimalista.</li>
+                        </ul>
+
+                        <div class="d-flex align-items-center flex-wrap gap-2 small">
+                            <strong class="me-1">Tecnologías:</strong>
+                            <i class="devicon-php-plain colored fs-4"></i>
+                            <i class="devicon-laravel-plain colored fs-4"></i>
+                            <i class="devicon-mysql-plain colored fs-4"></i>
+                            <i class="devicon-git-plain colored fs-4"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- OTROS EJERCICIOS -->
+            <section class="mb-3" aria-label="Otros ejercicios">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h3 class="h6 mb-2">Otros ejercicios y prácticas</h3>
+                        <ul class="small mb-2">
+                            <li>Maquetaciones responsive de landings sencillas con Bootstrap.</li>
+                            <li>Pequeños scripts en JavaScript para practicar lógica de programación.</li>
+                            <li>Clon de interfaz básica con HTML y CSS puros.</li>
+                        </ul>
+
+                        <div class="d-flex align-items-center flex-wrap gap-2 small">
+                            <strong class="me-1">Tecnologías:</strong>
+                            <i class="devicon-html5-plain colored fs-4"></i>
+                            <i class="devicon-css3-plain colored fs-4"></i>
+                            <i class="devicon-bootstrap-plain colored fs-4"></i>
+                            <i class="devicon-javascript-plain colored fs-4"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BOTÓN CONTACTO -->
+            <section class="mt-auto" aria-label="Contacto">
+                <a href="contacto.html"
+                    class="btn btn-primary w-100 d-flex align-items-center justify-content-center mb-2">
+                    <i class="bi bi-send me-1" aria-hidden="true"></i>Hablemos de colaborar
+                </a>
+            </section>
+
+        </main>
+
+        <!-- NAV INFERIOR -->
+        <nav class="navbar bg-white border-top fixed-bottom py-1">
+            <div class="container-sm d-flex justify-content-between px-4">
+
+                <a href="index.html" class="text-muted d-flex align-items-center" aria-label="Inicio">
+                    <i class="bi bi-house-fill fs-3" aria-hidden="true"></i>
+                </a>
+
+                <a href="experiencia.html" class="text-muted d-flex align-items-center" aria-label="Experiencia">
+                    <i class="bi bi-briefcase-fill fs-3" aria-hidden="true"></i>
+                </a>
+
+                <a href="estudios.html" class="text-muted d-flex align-items-center" aria-label="Educación">
+                    <i class="bi bi-mortarboard-fill fs-3" aria-hidden="true"></i>
+                </a>
+
+                <a href="idiomas.html" class="text-muted d-flex align-items-center" aria-label="Idiomas">
+                    <i class="bi bi-translate fs-3" aria-hidden="true"></i>
+                </a>
+
+                <a href="portafolio.html" class="text-primary" aria-label="Portafolio">
+                    <i class="bi bi-window-stack fs-3" aria-hidden="true"></i>
+                </a>
+
+                <a href="contacto.html" class="text-muted d-flex align-items-center" aria-label="Contacto">
+                    <i class="bi bi-chat-dots-fill fs-3" aria-hidden="true"></i>
+                </a>
+
+            </div>
+        </nav>
+
+    </div>
+
+</body>
+
+</html>
